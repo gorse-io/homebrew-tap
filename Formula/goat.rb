@@ -1,8 +1,8 @@
 class Goat < Formula
   desc "Go assembly transpiler for C programming language"
   homepage "https://github.com/gorse-io/goat"
-  url "https://github.com/gorse-io/goat/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "1ad1ad92b18bb00e28755bcb40087b8a190e6ee871e588f632fe7812eaad301e"
+  url "https://github.com/gorse-io/goat/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "40635aa37a5804fa514251afe26993f1070d8da63eef102d20579524f6eb4fd7"
   license "Apache-2.0"
 
   depends_on "go" => :build
