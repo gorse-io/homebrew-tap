@@ -1,28 +1,28 @@
 class GorseCli < Formula
   desc "Command-line tool for Gorse cluster management"
   homepage "https://github.com/gorse-io/gorse"
-  version "0.5.8"
+  version "0.5.11"
   license "Apache-2.0"
 
   on_macos do
     depends_on arch: :arm64
 
-    url "https://github.com/gorse-io/gorse/releases/download/v0.5.8/gorse-cli_darwin_arm64",
+    url "https://github.com/gorse-io/gorse/releases/download/v0.5.11/gorse-cli_darwin_arm64",
         using: :nounzip
-    sha256 "a0cbeba883661d20d558d6657480f213e0bb2e5cd9eff596d3b65f0f89573478"
+    sha256 "cea8ac44814c121dcee8f8d3522d94a75f15c66bf7b76b31fedb15f92b42fbb1"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/gorse-io/gorse/releases/download/v0.5.8/gorse-cli_linux_amd64",
+      url "https://github.com/gorse-io/gorse/releases/download/v0.5.11/gorse-cli_linux_amd64",
           using: :nounzip
-      sha256 "20346794a48276a9816fb21eaa3f2a4ef49ab237375a3899859931c91dc84d0a"
+      sha256 "a43c75ecb6f136ea9b982950a0f18224ed11528421602730a17b85d6ab0b9e49"
     end
 
     on_arm do
-      url "https://github.com/gorse-io/gorse/releases/download/v0.5.8/gorse-cli_linux_arm64",
+      url "https://github.com/gorse-io/gorse/releases/download/v0.5.11/gorse-cli_linux_arm64",
           using: :nounzip
-      sha256 "1aef034035a8cadf32bd8804cff463d258e8cacad7397a7202ea9a033251982f"
+      sha256 "de29e1e9ebeabee1b80791587198fe1c298dabf0127c939f1947a25c680d768d"
     end
   end
 
