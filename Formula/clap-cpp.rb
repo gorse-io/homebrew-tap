@@ -1,4 +1,4 @@
-class Clap < Formula
+class ClapCpp < Formula
   desc "Audio and text embedding inference with ggml"
   homepage "https://github.com/gorse-io/clap.cpp"
   version "0.1.1"
